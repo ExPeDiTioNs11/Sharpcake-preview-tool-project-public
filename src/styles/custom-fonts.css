@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Rubik';  
+    src: url('../assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');  
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'RubikBold';  
+    src: url('../assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Rubik', sans-serif !important;  
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'RubikBold', sans-serif !important; 
+  }
+
+  input::placeholder{
+    font-family: 'RubikBold', sans-serif !important;  
+  }
+
+  button{
+    font-family: 'RubikBold', sans-serif !important;  
+  }
+  

@@ -1,0 +1,28 @@
+ .center-content {
+     margin-left: 36%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 70vh;
+     width: 60vh;
+ }
+
+ .headArea {
+     display: flex !important;
+     flex-direction: row !important;
+     justify-content: flex-start !important;
+ }
+
+ .container {
+     display: grid;
+     place-items: center;
+     /* Hem dikey hem yatay ortala */
+     height: 100vh;
+     /* Sayfanın yüksekliği kadar bir konteyner */
+     margin-top: -10%;
+ }
+
+ .create-preview-form-yatay{
+    display: flex;
+    flex-direction: row;
+ }
